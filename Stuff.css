@@ -1,1 +1,74 @@
+h1 {
+    color: blueviolet;
+}
+#thing1{
+    color:green
+}
+#thing2{
+    color:pink
+}
+#thing3{
+    color: orange
+}
 
+span{
+    position: absolute;
+    background-color: blue;
+    color:black;
+    top: 0px;
+    right: 0px;
+    height: 25px;
+    border-style: solid;
+    border:black;
+}
+
+div{
+    background-color: grey; 
+    margin: 10px; 
+    border: 10px; 
+    box-sizing: border-box; 
+    position: relative;
+    padding-top: 50px;
+    border-style: solid;
+    border:black;
+}
+
+@media(min-width:992px){
+    .cla-thing1 {
+        width: 30%;
+        float: left;
+    }
+    .cla-thing2{
+        width: 30%;
+        float: left;
+    }
+    .cla-thing3{
+        width: 30%;
+        float: left;
+    }
+}
+@media(min-width:768px) and (max-width: 991px) {
+    .clb-thing1 {
+        width: 45%;
+        float: left;
+    }
+    .clb-thing2{
+        width: 45%;
+        float: left;
+    }
+    .clb-thing3{
+        float:left;
+        width: fit-content;
+    }
+}
+@media(max-width:767px){
+    .clc-thing1 {
+        width: auto;
+    }
+    .clc-thing2{
+        width: auto;
+    }
+    .clc-thing3{
+        width: auto;   
+    }
+}
